@@ -2,7 +2,7 @@
 
 We utilized Twitter's Stream API function to collect our dataset. First, we collected Covid19 related Twitter data using https://github.com/computermacgyver/twitter-python Github repo. The keywords we used to feed Twitter's Stream API can be found here: `covid19_keywords.txt`. Next, we performed a GREP function on tweets filtered by this dataset using `vaccine_keywords.txt`. Then we used this filtered dataset to perform our analysis.
 
-For reproducibility, we suggest using Hydator found here: https://github.com/DocNow/hydrator. We provided the Twitter Tweet Ids from our filtered dataset to feed into Hydrator here: `/data/twitter_id_str.txt`. **Note** Twitter actively removes and/or suspends users/tweets from its platform, and this may cause omissions from your dataset.
+For reproducibility, we suggest using Hydator found here: https://github.com/DocNow/hydrator. We provided the Twitter Tweet Ids and Twitter User Ids from our filtered dataset to feed into Hydrator here: `/data/twitter_id_str.txt`. **Note** Twitter actively removes and/or suspends users/tweets from its platform, and this may cause omissions from your dataset.
 
 
 
