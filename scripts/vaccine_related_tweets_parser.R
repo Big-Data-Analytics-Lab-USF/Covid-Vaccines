@@ -4,7 +4,7 @@ library("dplyr")
 
 #--------------- local machine --------------
 
-# files <- list.files(path = "/shares_bgfs/si_twitter/covid19/tables/tweet", pattern = "^2020-07", full.names=T)
+# files <- list.files(path = "XXXXXX", pattern = "^2020-07", full.names=T)
 # dat <- do.call(rbind, lapply(files, fread, integer64 = "character"))
 #---------------------------------------------
 
@@ -33,7 +33,7 @@ matched <- data.frame(dat[grep("vaccine|antivaxxers|antivaccine|coronavirusvacci
                        text)])
 #--------------------------------------------
 
-write_excel_csv(matched, path ="/shares_bgfs/si_twitter/covid19/ad-hoc_projects/KimberlyWalker/vaccine_related_keywords.csv", append = T, col_names = F)
+write_excel_csv(matched, path ="XXXXXX/vaccine_related_keywords.csv", append = T, col_names = F)
 
 
 #--------------- report output to terminal
