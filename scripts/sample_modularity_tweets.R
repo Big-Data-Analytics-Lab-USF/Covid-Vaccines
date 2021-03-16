@@ -4,7 +4,7 @@ options(scipen = 999999)
 
 
 
-data <- fread("/Users/dre/Downloads/vaccine_related_networkAnalysis/data/vaccine_related_tweets.csv")#, 
+data <- fread("/data/vaccine_related_tweets.csv")#, 
               #select = c("user.screen_name", "text", "retweeted_status.created_at"))
 
 
@@ -23,7 +23,7 @@ data <- data %>% dplyr::rename(text = complete_text)
 data <- data[which(is.na(data$retweeted_status.created_at) == TRUE)]
 data <- data %>% select(user.screen_name, text)
 
-userClass <- fread("/Users/dre/Downloads/vaccine_related_networkAnalysis/data/Vaccine.july.network.queries (1).csv", 
+userClass <- fread("/data/Vaccine.july.network.queries.csv", 
                    select = c("pageranks", "Id", "modularity_class"))
 userClass <- userClass %>% rename("user.screen_name" = "Id") 
 
