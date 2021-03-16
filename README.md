@@ -6,7 +6,7 @@ This repo contains two subfolders:
 
 **Data**
 
-The `Data` folder only contains a list of Twitter User IDs.
+The `Data` folder contains a list of Twitter User IDs and Twitter ID strings.
 
 **Scripts**
 
