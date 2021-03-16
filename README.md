@@ -15,4 +15,5 @@ The `Scripts` folder only contains analysis scripts. These scripts require the d
 **Keywords**
 
 The `covid19_keywords.txt` is a list of keywords we used to collect Covid19 related Twitter Data. 
+
 The `vaccine_keywords.txt` is a list of keywords we used to parse our Covid19 related Twitter Dataset to use in this anaylsis. 
