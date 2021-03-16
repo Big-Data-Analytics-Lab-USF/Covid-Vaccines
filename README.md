@@ -6,7 +6,7 @@ For reproducibility, we suggest using Hydator found here: https://github.com/Doc
 
 
 
-# Structure of this Repo
+# About this Repo
 
 This repo contains four subfolders:
 - `Data`
