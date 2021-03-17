@@ -6,10 +6,11 @@ For reproducibility, we suggest using Hydator found here: https://github.com/Doc
 
 
 
+
 # About this Repo
 
 This repo contains four subfolders:
-- `Data`
+- [`Data`](https://github.com/Big-Data-Analytics-Lab-USF/Covid-Vaccines/tree/main/data)
 - `Scripts`
 - `Analysis`
 - `Results`
