@@ -11,9 +11,9 @@ For reproducibility, we suggest using Hydator found here: https://github.com/Doc
 
 This repo contains four subfolders:
 - [`Data`](https://github.com/Big-Data-Analytics-Lab-USF/Covid-Vaccines/tree/main/data)
-- `Scripts`
-- `Analysis`
-- `Results`
+- [`Scripts`](https://github.com/Big-Data-Analytics-Lab-USF/Covid-Vaccines/tree/main/scripts)
+- [`Analysis`](https://github.com/Big-Data-Analytics-Lab-USF/Covid-Vaccines/tree/main/analysis)
+- [`Results`](https://github.com/Big-Data-Analytics-Lab-USF/Covid-Vaccines/tree/main/results)
 
 **Data**
 
