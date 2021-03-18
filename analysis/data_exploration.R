@@ -1,5 +1,8 @@
+library("ggplot2")
+library("data.table")
+library("dplyr")
 
-df <- data.table::fread("/Users/dre/Downloads/gender_detection_vaccine/output/C19_Vax_Tweets_coding_withGender.csv", integer64 = "character")
+df <- data.table::fread("data/C19_Vax_Tweets_coding_withGender.csv", integer64 = "character") # Not provided in this github due to Twitter's terms and conditions
 df <- df %>% mutate_all(na_if,"") # replace blank cells with NAs
 df <- df %>% mutate_each(funs(tolower)) # columns of char type has both lower and uppercase in factors
 df <- df %>% mutate(modularity_class = as.factor(modularity_class), # convert df columsn to factors
