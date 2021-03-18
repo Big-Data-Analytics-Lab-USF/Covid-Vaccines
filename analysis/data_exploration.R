@@ -1,6 +1,18 @@
+# This script will analyze Gender biases in a person's choice to take COVID19 
+# vaccine. The dataset was merged with data collected from Twitter, 
+# Gender Detection Algo, and annotated Covid vaccine tweets. 
+# 
+# More specifically, this script will generate 3 barchart creatives that 
+# compare gender to annotation. This script will also create a pivot table 
+# on the Gender variable. 
+#
+# Dre Dyson
+
 library("ggplot2")
 library("data.table")
 library("dplyr")
+options(scipen = 999999)
+
 
 df <- data.table::fread("data/C19_Vax_Tweets_coding_withGender.csv", integer64 = "character") # Not provided in this github due to Twitter's terms and conditions
 df <- df %>% mutate_all(na_if,"") # replace blank cells with NAs
